@@ -22,7 +22,7 @@ CrystalGame = {
         $("#playerScore").html(this.playerScore);
     },
     gameInit: function () {
-        // Game reset function -- pick new numbers for buttons and goal
+        // Game reset!
         this.goalNumber = Math.floor(Math.random() * 102) + 19;
         this.playerScore = 0;
         $("#randomNumber").html(this.goalNumber);
@@ -39,7 +39,7 @@ $("#wins").html("Wins: " + CrystalGame.wins);
 $("#losses").html("Losses: " + CrystalGame.losses);
 
 
-// On click listener
+// On click
 $.map(CrystalGame.buttons, (element) => {
     $(element).on('click', () => {
         //For cheating
