@@ -1,4 +1,4 @@
-#headerBlock {
+#header {
   text-align: center;
   font-size: 2rem;
   color: white;
@@ -8,11 +8,21 @@
   width: 25%;
   position:relative;
 }
+
 #rules {
   background-color: pink;
   width: 30%;
   height: 250px;
   margin: 7px 0 7px 7px;
+}
+
+#games {
+  background-color:rgb(230, 175, 216);
+  height:80px;
+  width:70px;
+  display:inline-block;
+  margin: 0 0 7px 7px;
+  font-size: .85rem;
 }
 
 #randomNumber {
@@ -26,14 +36,6 @@
   font-size: 4.5rem;
 
 }
-#games {
-  background-color:rgb(230, 175, 216);
-  height:80px;
-  width:70px;
-  display:inline-block;
-  margin: 0 0 7px 7px;
-  font-size: .85rem;
-}
 
 .playerScore {
   background-color: rgb(197, 176, 209);
@@ -41,11 +43,14 @@
   width:19%;
   margin: 7px 0 0 7px;
 }
+
 #playerScore {
   height:80px;
   font-size: 3.5rem;
   text-align: center;
 }
+
+
 .clearfix {
   clear:both;
 }

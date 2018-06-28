@@ -33,7 +33,7 @@ CrystalGame = {
     }
 }
 
-// First time game initialization
+// Game start
 CrystalGame.gameInit();
 $("#wins").html("Wins: " + CrystalGame.wins);
 $("#losses").html("Losses: " + CrystalGame.losses);
