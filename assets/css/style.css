@@ -1,0 +1,56 @@
+#headerBlock {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  padding: 10px 30px 10px 5px;
+  margin:10 px;
+  background-color: purple;
+  width: 25%;
+  position:relative;
+}
+#rules {
+  background-color: pink;
+  width: 30%;
+  height: 250px;
+  margin: 7px 0 7px 7px;
+}
+
+#randomNumber {
+  background-color:rgb(99, 68, 117);
+  height: 80px;
+  width: 150px;
+  margin: 0 0 7px 7px;
+  float:left;
+  display:inline-block;
+  text-align: center;
+  font-size: 4.5rem;
+
+}
+#games {
+  background-color:rgb(230, 175, 216);
+  height:80px;
+  width:70px;
+  display:inline-block;
+  margin: 0 0 7px 7px;
+  font-size: .85rem;
+}
+
+.playerScore {
+  background-color: rgb(197, 176, 209);
+  padding:5px 0 0 0;
+  width:19%;
+  margin: 7px 0 0 7px;
+}
+#playerScore {
+  height:80px;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.clearfix {
+  clear:both;
+}
+.crystal {
+  width:40px;
+  height:auto;
+  margin: auto;
+}
