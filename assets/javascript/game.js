@@ -5,7 +5,9 @@ CrystalGame = {
     wins: 0,
     losses: 0,
     gameFunc: function () {
-        //Win and Lose conditions
+
+
+        //Win and Losing conditions
         if (this.playerScore >= this.goalNumber) {
             if (this.playerScore == this.goalNumber) {
                 this.wins++;
@@ -16,7 +18,7 @@ CrystalGame = {
             }
             this.gameInit();
         }
-        //If game not lost or won, keep updating playerScore html
+        //If game isn't over (w/l) then player score continue
         $("#playerScore").html(this.playerScore);
     },
     gameInit: function () {
